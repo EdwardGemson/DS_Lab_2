@@ -13,7 +13,6 @@ drg.data <- read.csv('data/DRG_data.csv')
 #' @export
 #'
 #' @examples
-#' @importFrom
 stat_calc <- function(df_col, calc) {
   calc(df_col)
 }
